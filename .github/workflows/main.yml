@@ -8,7 +8,7 @@ jobs:
       y: 6
     runs-on: ubuntu-latest
     steps:
-      - name: Display variable
+      - name: Add x and y
         run:
           echo ${{env.x}}  
           echo ${{env.y}}
