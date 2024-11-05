@@ -2,13 +2,8 @@ on:
   push
 
 jobs:
-  job1:
-    env:
-      x: 5
-      y: 6
-    runs-on: ubuntu-latest
-    steps:
-      - name: Add x and y
-        run:
-          echo ${{env.x}}+${{env.y}}
+   job-one:
+     run-on: ubento-latest
+     steps:
+          - name: Checkout code
           
