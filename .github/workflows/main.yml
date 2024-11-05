@@ -12,4 +12,3 @@ jobs:
         run:
           echo ${{env.x}}  
           echo ${{env.y}}
-          echo  ${{env.x}}+${{env.y}}
